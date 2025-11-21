@@ -35,7 +35,7 @@ export default function RootLayout({
         <Script src="/lasy-bridge.js" strategy="beforeInteractive" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#0B0B0B] text-gray-100`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FAFAFA] text-[#1A1A1A]`}
       >
         <AuthProvider>
           <main className="pb-20 min-h-screen">
